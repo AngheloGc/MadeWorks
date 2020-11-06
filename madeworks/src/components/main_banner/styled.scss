@@ -1,0 +1,17 @@
+.Main_Banner {
+
+    height: 50vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background: rgb(242,142,38);
+    background: linear-gradient(90deg, rgba(242,142,38,1) 0%, rgba(227,54,100,1) 100%);
+
+    h1 {
+        font-size: 72px;
+        color: white;
+    }
+}
