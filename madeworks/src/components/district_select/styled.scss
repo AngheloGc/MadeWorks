@@ -1,0 +1,51 @@
+.DistrictSelect {
+    
+    background-color: white;
+    padding: 2.25rem;
+    border-radius: 4px;
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(gray,0.2); 
+    box-shadow: 5px 5px 15px 5px rgba(gray,0.2);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    p { 
+        display: flex;
+        align-items: center;
+
+    }
+
+    h4 {
+        font-size: 14px;
+    }
+
+    img {
+        width: 45px;
+        height: 45px;
+        margin-right: 10px;
+        object-fit: cover;
+    }
+
+    select {
+
+        width: 200px;
+        border: 1px solid rgba(gray,.3);
+        text-align: center;
+        font-size: 14px;
+        font-weight: bold;
+        border-radius: 5px;
+        padding: 0.35rem 1rem;
+
+        -moz-appearance:none; /* Firefox */
+        -webkit-appearance:none; /* Safari and Chrome */
+        appearance:none;
+
+        background-image: url("data:image/svg+xml;utf8,<svg fill='gray' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+        background-repeat: no-repeat;
+        background-position-x: 100%;
+        background-position-y: 5px;
+
+    }
+}

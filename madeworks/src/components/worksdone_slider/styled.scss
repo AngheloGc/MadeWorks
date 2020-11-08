@@ -1,0 +1,24 @@
+.WorksdoneSlider {
+    background-color: white;
+    margin-top: 1rem;
+    padding: 1rem;
+    border-radius: 4px;
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(gray,0.2); 
+    box-shadow: 5px 5px 15px 5px rgba(gray,0.2);
+
+    h5 {
+        color: rgba(black,0.65);
+    }
+
+    hr {
+        border: 1px solid rgba(gray,0.2);
+    }
+
+    &_Content {
+        margin-top: 3rem;
+    }
+}
+
+.MuiSlider-colorPrimary {
+    color: #ff0037!important;
+}

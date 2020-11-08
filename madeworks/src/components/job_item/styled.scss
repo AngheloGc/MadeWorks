@@ -1,0 +1,50 @@
+.JobItem {
+    display: flex;
+
+    border-radius: 5px;
+    overflow: hidden;
+    height: 175px;
+
+    border: 1px solid rgba(gray,.2);
+
+    &_Image {
+        height: 175px;
+        width: 175px;
+        object-fit: cover;
+        opacity: 0.5;
+    }
+
+    &_Content {
+
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        padding: 0.5rem 1rem;
+
+        p {
+            font-size: 14px;
+            color: rgba(black,.75);
+        }
+
+        &_Footer {
+            display: flex;
+            justify-content: space-between;
+
+            font-size: 14px;
+            font-weight: bold;
+            color: #ff0037;
+
+            &_Calification {
+                
+                display: flex;
+                align-items: center;
+
+                img {
+                    width: 20px;
+                    height: 20px;
+                    margin-right: 5px;
+                }
+            }
+        }
+    }
+}

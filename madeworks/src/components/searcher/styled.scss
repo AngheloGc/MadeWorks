@@ -1,4 +1,4 @@
-form {
+.Searcher {
     width: 90%;
     margin: 0 auto;
     display: flex;
@@ -12,16 +12,18 @@ form {
     padding-left: 1.5rem;
 
     margin-top: 2rem;
+
+    input[type="text"]{
+
+        height: 55px;
+        width: 90%;
+        border: none;
+        font-size: 18px;
+    
+    }
 }
 
-input[type="text"]{
 
-    height: 55px;
-    width: 90%;
-    border: none;
-    font-size: 18px;
-
-}
 
 .Submit_Button {
 

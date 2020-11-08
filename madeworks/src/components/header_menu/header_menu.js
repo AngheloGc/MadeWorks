@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import MainButton from '../../components/main_button/main_button.js';
 
 function HeaderMenu() {
@@ -5,13 +6,13 @@ function HeaderMenu() {
       <div className="Header_Menu">
         <ul>
             <li>
-                anuncios
+                <Link to='/anuncios'>anuncios</Link>
             </li>
             <li>
-                empleos
+                <Link to='/empleos'>empleos</Link>
             </li>
             <li>
-              <MainButton text="Regístrate" />
+              <Link to='/registro'><MainButton text="Regístrate" /></Link>
             </li>
         </ul>
       </div>

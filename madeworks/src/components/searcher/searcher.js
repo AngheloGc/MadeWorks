@@ -4,7 +4,7 @@ import './styled.scss';
 
 function Searcher() {
     return (
-        <form>
+        <form className='Searcher'>
             <input
                 type='text'
                 placeholder='Carpintería, Zapatería, Costurería, Técnico Electricista y mucho más...'
