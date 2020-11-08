@@ -8,11 +8,15 @@ import {
 import HomePage from './views/homepage/homepage';
 import Anuncios from './views/anuncios/anuncios';
 import Empleos from './views/empleos/empleos';
+import Acceso from './views/acceso/acceso';
 
 function App() {
   return (
     <Router>
       <Switch>
+        <Route path="/acceso">
+          <Acceso />
+        </Route>
         <Route path="/empleos">
           <Empleos />
         </Route>
